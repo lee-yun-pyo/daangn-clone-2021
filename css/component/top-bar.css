@@ -1,0 +1,53 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0px 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.topBar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBar-title__title {
+  color: var(--orange);
+  font-size: 25px;
+  margin-right: 30px;
+}
+.topBar-title i {
+  color: var(--orange);
+}
+.topBar-title__search {
+  width: 380px;
+  height: 40px;
+  border-radius: 10px;
+  border: var(--main-border);
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.3;
+  padding-left: 15px;
+}
+
+.topBar-apps__btn {
+  border: var(--main-border);
+  border-radius: 5px;
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  opacity: 0.6;
+}
+
+.topBar-apps__btn i {
+  margin-right: 8px;
+}
+
+.topBar-apps__btn span {
+  font-size: 14px;
+  font-weight: 700;
+}
