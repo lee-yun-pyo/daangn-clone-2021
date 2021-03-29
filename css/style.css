@@ -1,4 +1,5 @@
 @import "component/top-bar.css";
+@import "screen/index.css";
 
 :root {
   --orange: #ff8a3d;
@@ -9,4 +10,5 @@
 
 body {
   height: 1000vh;
+  margin: 0px;
 }
