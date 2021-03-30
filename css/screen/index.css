@@ -122,3 +122,23 @@
   letter-spacing: -0.05em;
   text-decoration: underline;
 }
+/* public-search */
+.public-search {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.public-search__title {
+  font-weight: 700;
+  text-decoration: underline;
+  letter-spacing: -0.1em;
+  margin-left: 100px;
+}
+.public-search__list {
+  text-align: center;
+}
+.public-search__list a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #000000;
+  font-weight: bold;
+}
