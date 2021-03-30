@@ -1,3 +1,4 @@
+/* main */
 .main {
   background-color: wheat;
   width: 100%;
@@ -59,4 +60,65 @@
   height: 700px;
   margin-top: 90px;
   margin-left: 100px;
+}
+/* mainList */
+.mainList {
+  background-color: #f8f9fa;
+  padding: 128px 66px 180px 66px;
+}
+
+.mainList__title {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  margin-bottom: 85px;
+}
+
+.mainList__lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainList__lists-item {
+  margin-bottom: 58px;
+  margin-left: 58px;
+}
+
+.mainList__lists-item__image {
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.mainList__lists-item__text {
+  font-size: 15px;
+  font-weight: 550;
+  margin-bottom: -12px;
+}
+
+.mainList__lists-item__price {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -7px;
+}
+
+.mainList__lists-item__addr {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.mainList__lists-item__interest {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.mainList_add {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-decoration: underline;
 }
