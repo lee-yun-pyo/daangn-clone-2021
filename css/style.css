@@ -1,4 +1,5 @@
 @import "component/top-bar.css";
+@import "component/footer.css";
 @import "screen/index.css";
 
 :root {
@@ -7,9 +8,10 @@
   --main-border: 1px solid rgba(0, 0, 0, 0.3);
   --gray: rgba(0, 0, 0, 0.5);
   --margin-text: 110px;
+  --footer-color: #adb5bd;
 }
 
 body {
-  height: 1000vh;
+  height: 100%;
   margin: 0px;
 }

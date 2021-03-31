@@ -1,0 +1,77 @@
+.underBar {
+  background-color: #495057;
+  padding: 80px 120px 55px 120px;
+}
+.underBar-title {
+  display: flex;
+  color: white;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--footer-color);
+  padding-bottom: 50px;
+}
+
+.underBar-title__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 130px;
+}
+.underBar-title__bold {
+  margin-right: 140px;
+  font-weight: 600;
+}
+.underBar-title__thin {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+  color: var(--footer-color);
+}
+
+.underBar-title__thin p:nth-child(2) {
+  color: white;
+  font-weight: 600;
+}
+
+.underBar-title__gray {
+  display: flex;
+  flex-direction: column;
+  color: var(--footer-color);
+}
+.title-white {
+  color: white;
+}
+/* underBar-corp */
+.underBar-corp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--footer-color);
+  padding-top: 25px;
+}
+.underBar-corp__text-all {
+  margin: 0;
+}
+.underBar-corp__text-acquires {
+  display: flex;
+  margin-bottom: -20px;
+}
+.underBar-corp__text-acquire {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.underBar-corp__text-acquire p:first-child {
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.underBar-corp__text-addr {
+  margin-bottom: 4px;
+  margin-top: 25px;
+}
+.underBar-corp__text-corp {
+  margin-top: 0px;
+}
+.underBar-corp__logo i {
+  margin-top: 10px;
+  margin-left: 40px;
+}
