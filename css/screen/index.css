@@ -79,8 +79,11 @@
   display: flex;
   flex-wrap: wrap;
 }
-
+.mainList__lists a {
+  text-decoration: none;
+}
 .mainList__lists-item {
+  color: black;
   margin-bottom: 58px;
   margin-left: 58px;
 }

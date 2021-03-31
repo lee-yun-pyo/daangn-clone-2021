@@ -1,0 +1,92 @@
+.mainItem {
+  background-color: white;
+  padding: 30px 290px 50px;
+  /* padding-bottom: 50px; */
+  margin-top: 67px;
+}
+
+.mainItem-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainItem-image img {
+  width: 670px;
+  height: 500px;
+  margin: 0px 15px 20px;
+  border-radius: 8px;
+}
+
+/* mainItem-profile */
+.mainItem-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: var(--main-border);
+}
+
+.mainItem-profile__person {
+  display: flex;
+  align-items: center;
+}
+.mainItem-profile__person i {
+  margin-right: 8px;
+  color: tomato;
+}
+.mainItem-profile__person-name p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.mainItem-profile__person-name p:last-child {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 5px;
+}
+.mainItem-profile__manner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mainItem-profile__manner-temp {
+  display: flex;
+  align-items: center;
+}
+.mainItem-profile__manner-temp i {
+  color: lightblue;
+  margin-left: 10px;
+}
+.mainItem-profile__manner-temp__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mainItem-profile__manner-temp__figure p {
+  font-size: 17px;
+  font-weight: 600;
+  color: lightblue;
+  margin: 0;
+}
+.mainItem-profile__graph {
+  width: 100px;
+  height: 4px;
+  border-radius: 100px;
+  margin: 0;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mainItem-profile__graph div {
+  background-color: lightblue;
+  width: 36.8%;
+  border-radius: 100px;
+  height: 100%;
+}
+.mainItem-profile__manner-temp + p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  color: var(--gray);
+}

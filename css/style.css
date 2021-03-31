@@ -1,11 +1,15 @@
+/* component */
 @import "component/top-bar.css";
 @import "component/footer.css";
+
+/* screen */
+@import "screen/item.css";
 @import "screen/index.css";
 
 :root {
   --orange: #ff8a3d;
   --horizontal-space: 15px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.3);
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
   --gray: rgba(0, 0, 0, 0.5);
   --margin-text: 110px;
   --footer-color: #adb5bd;
