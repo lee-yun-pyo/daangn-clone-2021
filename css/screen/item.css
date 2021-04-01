@@ -130,6 +130,12 @@
 p {
   letter-spacing: var(--letter-space);
 }
+.mainItem-famous__text p {
+  cursor: pointer;
+}
+.mainItem-famous__text p:hover {
+  font-weight: 600;
+}
 .mainItem-famous__image {
   display: flex;
   justify-content: space-around;

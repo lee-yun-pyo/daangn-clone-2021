@@ -51,6 +51,10 @@
   width: 140px;
   height: 40px;
   opacity: 0.6;
+  cursor: pointer;
+}
+.topBar-apps__btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .topBar-apps__btn i {

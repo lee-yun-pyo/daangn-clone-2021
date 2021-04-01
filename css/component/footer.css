@@ -25,6 +25,14 @@
   margin-right: 150px;
   color: var(--footer-color);
 }
+.underBar-title__bold-title,
+.underBar-title__thin-title {
+  cursor: pointer;
+}
+.underBar-title__bold-title:hover,
+.underBar-title__thin-title:hover {
+  text-decoration: underline;
+}
 
 .underBar-title__thin p:nth-child(2) {
   color: white;
