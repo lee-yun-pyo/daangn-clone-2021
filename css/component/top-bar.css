@@ -15,6 +15,13 @@
   justify-content: center;
   align-items: center;
 }
+.topBar-title__anchor {
+  text-decoration: none;
+}
+.topBar-title__main {
+  display: flex;
+  align-items: center;
+}
 .title-orange {
   color: var(--orange);
 }
