@@ -1,0 +1,43 @@
+/* mainList__lists */
+.mainList__lists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mainList__lists-anchor {
+  text-decoration: none;
+}
+.mainList__lists-item {
+  color: black;
+  margin-bottom: 58px;
+}
+
+.mainList__lists-item__image {
+  width: 210px;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.mainList__lists-item__text {
+  font-size: 15px;
+  font-weight: 550;
+  margin-bottom: -12px;
+}
+
+.mainList__lists-item__price {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: -7px;
+}
+
+.mainList__lists-item__addr {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.mainList__lists-item__interest {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray);
+}

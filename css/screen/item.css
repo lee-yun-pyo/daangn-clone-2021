@@ -90,3 +90,48 @@
   margin-top: 8px;
   color: var(--gray);
 }
+/* mainItem-item */
+.mainItem-item {
+  margin-top: 30px;
+  padding-bottom: 25px;
+  border-bottom: var(--main-border);
+}
+.mainItem-item h2 {
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+.mainItem-item__sort {
+  margin-top: 5px;
+  font-size: 13px;
+  color: var(--gray);
+}
+.mainItem-item__contents {
+  font-size: 17px;
+  line-height: 1.5;
+}
+.mainItem-item__interest {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: var(--letter-space);
+  color: var(--gray);
+}
+/* mainItem-famous */
+.mainItem-famous {
+  padding-top: 15px;
+}
+.mainItem-famous__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mainItem-famous__text h3,
+p {
+  letter-spacing: var(--letter-space);
+}
+.mainItem-famous__image {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

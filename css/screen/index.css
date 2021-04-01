@@ -64,9 +64,8 @@
 /* mainList */
 .mainList {
   background-color: #f8f9fa;
-  padding: 128px 66px 180px 66px;
+  padding: 128px 120px 180px;
 }
-
 .mainList__title {
   text-align: center;
   font-size: 40px;
@@ -74,50 +73,9 @@
   font-weight: 900;
   margin-bottom: 85px;
 }
-
-.mainList__lists {
-  display: flex;
-  flex-wrap: wrap;
-}
-.mainList__lists a {
-  text-decoration: none;
-}
-.mainList__lists-item {
-  color: black;
-  margin-bottom: 58px;
-  margin-left: 58px;
-}
-
-.mainList__lists-item__image {
-  width: 210px;
-  height: 210px;
-  border-radius: 10px;
-}
-
-.mainList__lists-item__text {
-  font-size: 15px;
-  font-weight: 550;
-  margin-bottom: -12px;
-}
-
-.mainList__lists-item__price {
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: -7px;
-}
-
-.mainList__lists-item__addr {
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: -10px;
-}
-
-.mainList__lists-item__interest {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--gray);
-}
-
+/* 
+  ~~ (component/itemList.css) ~~
+*/
 .mainList_add {
   text-align: center;
   font-size: 17px;

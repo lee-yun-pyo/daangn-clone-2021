@@ -1,6 +1,7 @@
 /* component */
 @import "component/top-bar.css";
 @import "component/footer.css";
+@import "component/itemList.css";
 
 /* screen */
 @import "screen/item.css";
@@ -13,6 +14,7 @@
   --gray: rgba(0, 0, 0, 0.5);
   --margin-text: 110px;
   --footer-color: #adb5bd;
+  --letter-space: -0.1em;
 }
 
 body {
