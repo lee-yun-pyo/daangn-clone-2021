@@ -1,0 +1,81 @@
+.mainProf {
+  margin-top: 67px;
+  padding: 0px 290px;
+}
+.mainProf-profile {
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+}
+.mainProf-profile-text {
+  display: flex;
+  flex-direction: column;
+}
+.mainProf-profile__person {
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+.mainProf-profile__person h2 {
+  margin: 0;
+}
+.mainProf-profile__manner {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+.mainProf-profile i {
+  margin-right: 20px;
+}
+.mainProf-profile__manner-trans,
+.mainProf-profile__manner-temp {
+  display: flex;
+  align-items: flex-end;
+  color: var(--gray);
+  font-size: 15px;
+}
+.mainProf-profile__manner-trans span,
+.mainProf-profile__manner-temp span {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: 7px;
+}
+.mainProf-profile__manner-trans,
+.mainProf-profile__manner-temp {
+  display: flex;
+  align-items: flex-end;
+  color: var(--gray);
+}
+#address {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* mainProf-bars */
+.mainProf-bars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: var(--main-border);
+  list-style: none;
+  margin-bottom: 40px;
+  padding: 0;
+  padding-bottom: 12px;
+}
+.mainProf-bars_bar {
+  padding: 0px 20px 10px;
+  color: var(--gray);
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.mainProf-bars li:first-child a {
+  color: var(--orange);
+  font-weight: 600;
+  border-bottom: 3px solid var(--orange);
+}
+.mainProf-bars_bar:hover {
+  color: var(--orange);
+}

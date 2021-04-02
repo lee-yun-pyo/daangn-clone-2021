@@ -6,6 +6,7 @@
 /* screen */
 @import "screen/item.css";
 @import "screen/index.css";
+@import "screen/profile.css";
 
 :root {
   --orange: #ff8a3d;
@@ -16,7 +17,9 @@
   --footer-color: #adb5bd;
   --letter-space: -0.1em;
 }
-
+.anchor {
+  text-decoration: none;
+}
 body {
   height: 100%;
   margin: 0px;
