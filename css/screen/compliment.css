@@ -1,0 +1,42 @@
+.mainCompli {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  counter-reset: item;
+}
+.mainCompli-lists {
+  display: flex;
+  align-items: center;
+  padding: 18px 0px;
+  border-bottom: var(--main-border);
+  position: relative;
+}
+.mainCompli-lists:before {
+  counter-increment: item;
+  content: counter(item) ".";
+  font-size: 15px;
+  font-weight: 600;
+}
+.mainCompli-lists::marker {
+  display: inline-block;
+  font-size: 15px;
+}
+.mainCompli-lists:last-child {
+  border: none;
+}
+.mainCompli-lists_num::before {
+  content: counter();
+}
+.mainCompli-lists_num {
+  font-size: 15px;
+  font-weight: 500;
+}
+.mainCompli-lists_people {
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  right: 0px;
+}
+.mainCompli-lists p {
+  margin: 0;
+}
