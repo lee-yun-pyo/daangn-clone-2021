@@ -1,0 +1,43 @@
+.mainProf-bars li:nth-child(2) a {
+  color: var(--orange);
+  font-weight: 600;
+  border-bottom: 3px solid var(--orange);
+}
+/* mainProf-review */
+.mainProf-review {
+  padding: 0;
+  margin: 0;
+}
+.mainProf-review_lists {
+  border-bottom: var(--main-border);
+  padding: 14px 0px 18px;
+}
+.mainProf-review_lists-img {
+  display: flex;
+  align-items: center;
+}
+.mainProf-review_lists-img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.mainProf-review_lists-img h4 {
+  margin: 0;
+}
+.mainProf-review_lists p {
+  margin: 0;
+}
+.mainProf-review_lists p:last-child {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray);
+}
+#review-comment {
+  margin: 8px 0px;
+}
+#review-addr {
+  font-size: 13px;
+  font-weight: normal;
+}
