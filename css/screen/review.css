@@ -1,8 +1,3 @@
-.mainProf-bars li:nth-child(2) a {
-  color: var(--orange);
-  font-weight: 600;
-  border-bottom: 3px solid var(--orange);
-}
 /* mainProf-review */
 .mainProf-review {
   padding: 0;

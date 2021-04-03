@@ -31,11 +31,13 @@
   font-size: 45px;
   font-weight: 900;
   letter-spacing: -0.05em;
+  width: max-content;
 }
 
 .main-box__text-subtitle {
   font-weight: 500;
   font-size: 14px;
+  width: max-content;
 }
 
 .main-box:nth-child(2) {
@@ -112,4 +114,10 @@
 }
 .public-list-item:hover {
   text-decoration: underline;
+}
+
+@media screen {
+  body {
+    width: 100%;
+  }
 }

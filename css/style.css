@@ -1,3 +1,4 @@
+@import "reset.css";
 /* component */
 @import "component/top-bar.css";
 @import "component/footer.css";
