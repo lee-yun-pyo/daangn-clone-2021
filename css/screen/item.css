@@ -4,20 +4,40 @@
   /* padding-bottom: 50px; */
   margin-top: 67px;
 }
-
+.slideBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.slideBtn:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+.slideBtn:active {
+  border: none;
+}
 .mainItem-image {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.mainItem-image img {
+.slideBar-imgs {
   width: 670px;
   height: 500px;
+  /* relative 된 요소 크기 먼저 정하기 */
   margin: 0px 15px 20px;
-  border-radius: 8px;
+  position: relative;
 }
-
+.slideBar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.showing_slide {
+  z-index: 1;
+}
 /* mainItem-profile */
 .mainItem-profile {
   display: flex;
