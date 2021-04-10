@@ -3,6 +3,7 @@
 @import "component/top-bar.css";
 @import "component/footer.css";
 @import "component/itemList.css";
+@import "component/like.css";
 
 /* screen */
 @import "screen/item.css";

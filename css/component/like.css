@@ -1,0 +1,19 @@
+.like {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#dislike {
+  margin-left: 20px;
+}
+.likeDis-Btn {
+  background-color: transparent;
+  border: none;
+  width: 18px;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+.like p {
+  margin: 0px 0px 0px 10px;
+}
