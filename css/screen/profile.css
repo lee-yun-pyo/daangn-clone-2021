@@ -71,7 +71,19 @@
   font-weight: 500;
   cursor: pointer;
 }
-.mainProf-bars li:first-child a {
+.mainProf-bars_bar:hover {
+  animation: transX 1s ease-in-out;
+}
+
+@keyframes transX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.changeColorBorder {
   color: var(--orange);
   font-weight: 600;
   border-bottom: 3px solid var(--orange);

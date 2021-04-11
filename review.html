@@ -56,6 +56,28 @@
               <span>100%</span>
             </li>
           </ul>
+          <!-- 좋아요 버튼 -->
+          <div class="like">
+            <button class="likeDis-Btn" id="like">
+              <i class="far fa-thumbs-up fa-lg"></i>
+            </button>
+            <p id="likeNum">0</p>
+            <button class="likeDis-Btn" id="dislike">
+              <i class="far fa-thumbs-down fa-lg"></i>
+            </button>
+            <p id="dislikeNum">0</p>
+            <button class="subscription">구독</button>
+            <!-- 모달창 -->
+            <div class="like-modal modal-unShowing">
+              <div class="like-modal_overlay"></div>
+              <div class="like-modal_content">
+                <h2>Would you subscribe to this user?</h2>
+                <div class="like-modal_content-btn">
+                  <button>Yes</button><button>No</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <ul class="mainProf-bars">
@@ -65,7 +87,9 @@
           >
         </li>
         <li>
-          <a href="review.html" class="anchor mainProf-bars_bar"
+          <a
+            href="review.html"
+            class="anchor mainProf-bars_bar changeColorBorder"
             >거래 후기(19)</a
           >
         </li>
@@ -194,5 +218,7 @@
       ;
     ></script>
     <script src="js/profile.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/like.js"></script>
   </body>
 </html>
