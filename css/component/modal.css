@@ -1,0 +1,62 @@
+.like-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.modal-unShowing {
+  display: none;
+}
+.like-modal_overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.like-modal_content {
+  position: fixed;
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.like-modal_content h2 {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.like-modal_content-btn button {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.subscription {
+  border-radius: 10px;
+  width: 45px;
+  height: 35px;
+  margin-left: 20px;
+  border: none;
+  background-color: var(--orange);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}

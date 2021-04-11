@@ -4,6 +4,7 @@
 @import "component/footer.css";
 @import "component/itemList.css";
 @import "component/like.css";
+@import "component/modal.css";
 
 /* screen */
 @import "screen/item.css";
